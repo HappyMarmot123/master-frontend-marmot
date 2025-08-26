@@ -11,3 +11,30 @@
 JavaScript, Python, Java 등 현대적인 언어의 **`for...of`** , **`for...each`** , **`for...in`** 구문이 바로 이터레이터 패턴을 기반으로 작동합니다. 이 반복문들은 배열, 맵, 세트와 같은 다양한 컬렉션의 내부 구조에 상관없이 일관된 방식으로 요소를 순회할 수 있게 해줍니다.
 
 이터레이터 패턴은 단순히 디자인 패턴을 넘어, **순차적인 데이터 접근을 위한 기본 추상화**로 자리 잡았습니다. 배열이나 리스트의 모든 요소를 순회하기 위해 사용하는 모든 반복문은 이 패턴의 원리를 따르고 있습니다. 이는 내부 자료구조의 복잡성을 숨기고, 클라이언트 코드에 일관된 인터페이스를 제공하는 가장 성공적인 사례 중 하나입니다.
+
+// 구현 객체(기기) 생성
+const tv = new TV();
+const radio = new Radio();
+
+// 추상화 객체(리모컨) 생성
+const remoteForTV = new RemoteControl(tv);
+const remoteForRadio = new RemoteControl(radio);
+
+// 기본 리모컨으로 TV 제어
+console.log("--- 기본 리모컨으로 TV 제어 ---");
+remoteForTV.turnOn();
+remoteForTV.setChannel(10);
+remoteForTV.turnOff();
+
+// 기본 리모컨으로 라디오 제어
+console.log("\n--- 기본 리모컨으로 라디오 제어 ---");
+remoteForRadio.turnOn();
+remoteForRadio.setChannel(95.5);
+remoteForRadio.turnOff();
+
+// 고급 리모컨으로 TV 제어 (새로운 기능 사용)
+const advancedRemote = new AdvancedRemoteControl(tv);
+console.log("\n--- 고급 리모컨으로 TV 제어 ---");
+advancedRemote.turnOn();
+advancedRemote.nextChannel();
+advancedRemote.turnOff();
