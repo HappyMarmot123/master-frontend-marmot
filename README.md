@@ -54,22 +54,18 @@
 ### 3. [Web](./Web/)
 
 - [01. 브라우저 렌더링 과정](./Web/01.%20브라우저%20렌더링%20과정.md)
-- [02. V8 엔진](./Web/11.%20V8%20엔진.md)
-- [03. HTTP 메서드](./Web/06.%20HTTP%20메서드.md)
-- [04. HTTP 상태 코드](./Web/07.%20HTTP%20상태%20코드.md)
-- [05. 프로세스와 스레드](./Web/08.%20프로세스와%20스레드.md)
-- [06. 웹 보안](./Web/05.%20웹%20보안.md)
-- [07. SEO (Search Engine Optimization)](./Web/03.%20SEO%20%28Search%20Engine%20Optimization%29.md)
-- [08. 웹 접근성 (Web Accessibility)](./Web/09.%20웹%20접근성%20%28Web%20Accessibility%29.md)
-- [09. Web API](./Web/12.%20Web%20API.md)
+- [02. V8 엔진](./Web/02.%20V8%20엔진.md)
+- [03. HTTP 메서드](./Web/03.%20HTTP%20메서드.md)
+- [04. HTTP 상태 코드](./Web/04.%20HTTP%20상태%20코드.md)
+- [05. 프로세스와 스레드](./Web/05.%20프로세스와%20스레드.md)
+- [06. 인증 &amp; 보안 (Authentication &amp; Security)](./Web/06.%20인증%20&%20보안%20%28Authentication%20&%20Security%29.md)
+- [07. JWT (JSON Web Token)](./Web/07.%20JWT%20%28JSON%20Web%20Token%29.md)
+- [08. Access &amp; Refresh Token](./Web/08.%20Access%20&%20Refresh%20Token.md)
+- [09. SEO (Search Engine Optimization)](./Web/09.%20SEO%20%28Search%20Engine%20Optimization%29.md)
+- [10. 웹 접근성 (Web Accessibility)](./Web/10.%20웹%20접근성%20%28Web%20Accessibility%29.md)
+- [11. Web API](./Web/11.%20Web%20API.md)
 
-### 4. [Authentication-Security](./Authentication-Security/)
-
-- [1. 인증 &amp; 보안 (Authentication &amp; Security)](./Authentication-Security/1.%20인증%20&%20보안%20%28Authentication%20&%20Security%29.md)
-- [2. JWT (JSON Web Token)](./Authentication-Security/2.%20JWT%20%28JSON%20Web%20Token%29.md)
-- [3. Access &amp; Refresh Token](./Authentication-Security/3.%20Access%20&%20Refresh%20Token.md)
-
-### 5. [CSS](./CSS/)
+### 4. [CSS](./CSS/)
 
 - [1. CSS 성능 최적화](./CSS/1.%20CSS%20성능%20최적화.md)
 - [2. display](./CSS/2.%20display.md)
@@ -82,7 +78,7 @@
 - [9. attr()](./CSS/9.%20attr%28%29.md)
 - [10. font (foit, fout, preload)](./CSS/10.%20font%20%28foit,%20fout,%20preload%29.md)
 
-### 6. [Optimization](./Optimization/)
+### 5. [Optimization](./Optimization/)
 
 - [1. 코드 스플리팅](./Optimization/1.%20코드%20스플리팅.md)
 - [2. Lazy Load](./Optimization/2.%20Lazy%20Load.md)
