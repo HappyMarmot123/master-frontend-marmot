@@ -1,0 +1,90 @@
+# 병합 정렬 (Merge Sort)
+
+병합 정렬은 분할 정복(Divide and Conquer) 방식의 정렬 알고리즘 중 하나로, 배열을 더 이상 나눌 수 없을 때까지 반복적으로 분할한 후, 정렬된 부분 배열들을 다시 합쳐(병합하여) 전체 배열을 정렬합니다. 데이터의 양이 많을 때도 안정적인 성능을 보입니다.
+
+## 1. 동작 방식
+
+병합 정렬은 크게 **분할(Divide)**과 **정복(Conquer)**, 그리고 **결합(Combine)**의 세 단계로 나눌 수 있습니다.
+
+1.  **분할(Divide):** 배열을 절반으로 계속 나눕니다. 이 과정은 배열의 크기가 1이 될 때까지 재귀적으로 반복됩니다. 크기가 1인 배열은 그 자체가 정렬된 상태라고 간주합니다.
+2.  **정복(Conquer):** 분할된 부분 배열들이 각각 정렬됩니다. (크기가 1인 배열은 이미 정렬된 상태이므로 실질적인 작업은 없습니다.)
+3.  **결합(Combine - 병합):** 정렬된 두 부분 배열을 합쳐 하나의 더 큰 정렬된 배열을 만듭니다. 이 병합 과정에서 두 배열의 요소들을 비교하여 작은 순서대로 새로운 배열에 삽입합니다.
+
+## 2. 장점
+
+- **항상 O(N log N)의 시간 복잡도를 보장합니다.** 최악의 경우에도 성능 저하가 크지 않습니다.
+- **안정 정렬(Stable Sort)입니다.** 동일한 값을 가진 요소들의 상대적 순서가 정렬 후에도 유지됩니다.
+- **대규모 데이터 정렬에 적합합니다.** 연결 리스트(Linked List) 정렬에 특히 효율적입니다.
+
+## 3. 단점
+
+- **추가적인 메모리 공간이 필요합니다.** 정렬 과정에서 임시 배열(temp array)을 사용해야 하므로 O(N)의 공간 복잡도를 가집니다.
+- **제자리 정렬(In-place Sorting)이 아닙니다.** 퀵 정렬에 비해 메모리 사용량이 많습니다.
+- **데이터의 크기가 작을 때는 비효율적일 수 있습니다.** 재귀 호출 오버헤드와 추가 메모리 사용 때문에 데이터가 적을 때는 삽입 정렬 같은 간단한 정렬보다 느릴 수 있습니다.
+
+## 4. 시간 복잡도
+
+- **최선 (Best Case):** O(N log N)
+- **평균 (Average Case):** O(N log N)
+- **최악 (Worst Case):** O(N log N)
+
+## 5. 예제 코드 (JavaScript)
+
+```javascript
+function mergeSort(arr) {
+  if (arr.length <= 1) {
+    return arr;
+  }
+
+  const mid = Math.floor(arr.length / 2);
+  const left = arr.slice(0, mid);
+  const right = arr.slice(mid);
+
+  // 재귀적으로 왼쪽과 오른쪽 배열을 정렬
+  const sortedLeft = mergeSort(left);
+  const sortedRight = mergeSort(right);
+
+  // 정렬된 두 배열을 병합
+  return merge(sortedLeft, sortedRight);
+}
+
+function merge(left, right) {
+  let result = [];
+  let leftIdx = 0;
+  let rightIdx = 0;
+
+  // 두 배열의 요소를 비교하여 작은 값을 result에 추가
+  while (leftIdx < left.length && rightIdx < right.length) {
+    if (left[leftIdx] < right[rightIdx]) {
+      result.push(left[leftIdx]);
+      leftIdx++;
+    } else {
+      result.push(right[rightIdx]);
+      rightIdx++;
+    }
+  }
+
+  // 남은 요소들을 result에 추가
+  return result.concat(left.slice(leftIdx)).concat(right.slice(rightIdx));
+}
+
+// 사용 예시:
+// let array = [38, 27, 43, 3, 9, 82, 10];
+// console.log("원본 배열:", array); // 원본 배열: [38, 27, 43, 3, 9, 82, 10]
+// console.log("정렬된 배열:", mergeSort(array)); // 정렬된 배열: [3, 9, 10, 27, 38, 43, 82]
+```
+
+**코드 설명:**
+
+1.  **`mergeSort` 함수:**
+
+    - 배열의 길이가 1 이하면 그대로 반환합니다 (기저 조건).
+    - 배열을 `mid`를 기준으로 `left`와 `right` 두 부분으로 나눕니다.
+    - `mergeSort`를 재귀적으로 호출하여 `left`와 `right`를 정렬합니다.
+    - 정렬된 `left`와 `right` 배열을 `merge` 함수를 이용해 병합하고 반환합니다.
+
+2.  **`merge` 함수:**
+    - 두 개의 정렬된 배열 `left`와 `right`를 받습니다.
+    - `result` 배열에 두 배열의 요소들을 비교하여 작은 값을 먼저 추가합니다. (`leftIdx`, `rightIdx`를 사용하여 현재 위치를 추적).
+    - 한쪽 배열의 요소가 모두 소진되면, 남은 다른 배열의 요소들을 `result`에 그대로 추가합니다.
+    - 최종적으로 병합되고 정렬된 배열 `result`를 반환합니다.
