@@ -6,7 +6,56 @@
 
 ## 📚 디렉토리 목록
 
-### 1. [JavaScript](./JavaScript/)
+### 1. [Algorithm](./Algorithm/)
+
+- [1. 시간복잡도](./Algorithm/1.%20시간복잡도.md)
+- [2. Insertion Sort](./Algorithm/2.%20Insertion%20Sort.md)
+- [3. Quick Sort](./Algorithm/3.%20Quick%20Sort.md)
+- [4. Merge Sort](./Algorithm/4.%20Merge%20Sort.md)
+- [6. Binary Search](./Algorithm/6.%20Binary%20Search.md)
+- [7. Hash Table](./Algorithm/7.%20Hash%20Table.md)
+- [8. DFS &amp; BFS](./Algorithm/8.%20DFS%20&%20BFS.md)
+- [9. DP (Dynamic Programming)](<./Algorithm/9.%20DP%20(Dynamic%20Programming).md>)
+
+### 2. [Software Engineering](./Software%20Engineering/)
+
+- [1. OOP &amp; SRP &amp; OCP](./Software%20Engineering/1.%20OOP%20&%20SRP%20&%20OCP.md)
+- [2. TDD &amp; DDD](./Software%20Engineering/2.%20TDD%20&%20DDD.md)
+- [3. Agile](./Software%20Engineering/3.%20Agile.md)
+
+### 3. [DesignPattern](./DesignPattern/)
+
+- [1. 디자인패턴](./DesignPattern/1.%20디자인패턴.md)
+- [2. 빌더 (Builder)](<./DesignPattern/2.%20빌더%20(Builder).md>)
+- [3. 추상 팩토리 (Abstract Factory)](<./DesignPattern/3.%20추상%20팩토리%20(Abstract%20Factory).md>)
+- [4. 팩토리 메서드 (Factory Method)](<./DesignPattern/4.%20팩토리%20메서드%20(Factory%20Method).md>)
+- [5. 싱글톤 (Singleton)](<./DesignPattern/5.%20싱글톤%20(Singleton).md>)
+- [6. 어댑터 (Adapter)](<./DesignPattern/6.%20어댑터%20(Adapter).md>)
+- [7. 브리지 (Bridge)](<./DesignPattern/7.%20브리지%20(Bridge).md>)
+- [8. 컴포지트 (Composite)](<./DesignPattern/8.%20컴포지트%20(Composite).md>)
+- [9. 데코레이터 (Decorator)](<./DesignPattern/9.%20데코레이터%20(Decorator).md>)
+- [10. 퍼사드 (Facade)](<./DesignPattern/10.%20퍼사드%20(Facade).md>)
+- [11. 플라이웨이트 (Flyweight)](<./DesignPattern/11.%20플라이웨이트%20(Flyweight).md>)
+- [12. 책임 연쇄 (Chain of Responsibility)](<./DesignPattern/12.%20책임%20연쇄%20(Chain%20of%20Responsibility).md>)
+- [13. 중재자 (Mediator)](<./DesignPattern/13.%20중재자%20(Mediator).md>)
+- [14. 옵저버 (Observer)](<./DesignPattern/14.%20옵저버%20(Observer).md>)
+- [15. 메멘토 (Memento)](<./DesignPattern/15.%20메멘토%20(Memento).md>)
+- [16. 전략 (Strategy)](<./DesignPattern/16.%20전략%20(Strategy).md>)
+- [17. 상태 (State)](<./DesignPattern/17.%20상태%20(State).md>)
+- [18. 템플릿 메서드 (Template Method)](<./DesignPattern/18.%20템플릿%20메서드%20(Template%20Method).md>)
+
+### 4. [ArchitecturePattern](./ArchitecturePattern/)
+
+- [1. MVC (Model-View-Controller)](<./ArchitecturePattern/1.%20MVC%20(Model-View-Controller).md>)
+- [2. MVVM (Model-View-ViewModel)](<./ArchitecturePattern/2.%20MVVM%20(Model-View-ViewModel).md>)
+- [3. 레이어드 아키텍처 (Layered Architecture)](<./ArchitecturePattern/3.%20레이어드%20아키텍처%20(Layered%20Architecture).md>)
+- [4. 마이크로서비스 아키텍처 (Microservices Architecture)](<./ArchitecturePattern/4.%20마이크로서비스%20아키텍처%20(Microservices%20Architecture).md>)
+- [5. 도메인 기반 아키텍처](./ArchitecturePattern/5.%20도메인%20기반%20아키텍처.md)
+- [6. 프레젠테이셔널 & 컨테이너 패턴](./ArchitecturePattern/6.%20프레젠테이셔널%20&%20컨테이너%20패턴.md)
+- [7. 아토믹 디자인 (Atomic Design)](<./ArchitecturePattern/7.%20아토믹%20디자인%20(Atomic%20Design).md>)
+- [8. FSD (Feature-Sliced Design)](<./ArchitecturePattern/8.%20FSD%20(Feature-Sliced%20Design).md>)
+
+### 5. [JavaScript](./JavaScript/)
 
 - [1. 자바스크립트](./JavaScript/1.%20자바스크립트.md)
 - [2. 렉시컬 스코프](./JavaScript/2.%20렉시컬%20스코프.md)
@@ -23,35 +72,14 @@
 - [13. Set](./JavaScript/13.%20Set.md)
 - [14. 디바운스 | 스로틀링](./JavaScript/14.%20디바운스%20스로틀링.md)
 
-### 2. [DesignPattern](./DesignPattern/)
+### 6. [Network](./Network/)
 
-- [1. OOP &amp; SRP &amp; OCP](./DesignPattern/1.%20OOP%20&%20SRP%20&%20OCP.md)
-- [2. 디자인 패턴](./DesignPattern/2.%20디자인패턴.md)
-- [3. 빌더 (Builder)](./DesignPattern/4.%20빌더%20%28Builder%29.md)
-- [4. 추상 팩토리 (Abstract Factory)](./DesignPattern/3.%20추상%20팩토리%20%28Abstract%20Factory%29.md)
-- [5. 팩토리 메서드 (Factory Method)](./DesignPattern/5.%20팩토리%20메서드%20%28Factory%20Method%29.md)
-- [6. 싱글톤 (Singleton)](./DesignPattern/7.%20싱글톤%20%28Singleton%29.md)
-- [7. 어댑터 (Adapter)](./DesignPattern/8.%20어댑터%20%28Adapter%29.md)
-- [8. 브리지 (Bridge)](./DesignPattern/9.%20브리지%20%28Bridge%29.md)
-- [9. 컴포지트 (Composite)](./DesignPattern/10.%20컴포지트%20%28Composite%29.md)
-- [10. 데코레이터 (Decorator)](./DesignPattern/11.%20데코레이터%20%28Decorator%29.md)
-- [11. 퍼사드 (Facade)](./DesignPattern/12.%20퍼사드%20%28Facade%29.md)
-- [12. 프로토타입 (Prototype)](./DesignPattern/6.%20프로토타입%20%28Prototype%29.md)
-- [13. 플라이웨이트 (Flyweight)](./DesignPattern/13.%20플라이웨이트%20%28Flyweight%29.md)
-- [14. 책임 연쇄 (Chain of Responsibility)](./DesignPattern/15.%20책임%20연쇄%20%28Chain%20of%20Responsibility%29.md)
-- [15. 중재자 (Mediator)](./DesignPattern/중재자%20%28Mediator%29.md)
-- [16. 옵저버 (Observer)](./DesignPattern/16.%20옵저버%20%28Observer%29.md)
-- [17. 메멘토 (Memento)](./DesignPattern/17.%20메멘토%20%28Memento%29.md)
-- [18. 전략 (Strategy)](./DesignPattern/18.%20전략%20%28Strategy%29.md)
-- [19. 상태 (State)](./DesignPattern/19.%20상태%20%28State%29.md)
-- [20. 템플릿 메서드 (Template Method)](./DesignPattern/20.%20템플릿%20메서드%20%28Template%20Method%29.md)
-- [이터레이터 (Iterator)](./DesignPattern/이터레이터%20%28Iterator%29.md)
-- [인터프리터 (Interpreter)](./DesignPattern/인터프리터%20%28Interpreter%29.md)
-- [커맨드 (Command)](./DesignPattern/커맨드%20%28Command%29.md)
-- [프록시 (Proxy)](./DesignPattern/14.%20프록시%20%28Proxy%29.md)
-- [컴파운드 (Compound)](./DesignPattern/컴파운드%20%28Compound%29.md)
+- [1. HTTP &amp; HTTPS](./Network/1.%20HTTP%20&%20HTTPS.md)
+- [2. HTTP 메서드](./Network/2.%20HTTP%20메서드.md)
+- [3. HTTP 상태 코드](./Network/3.%20HTTP%20상태%20코드.md)
+- [4. 로드 밸런싱 (Load Balancing)](<./Network/4.%20로드%20밸런싱(Load%20Balancing).md>)
 
-### 3. [Web](./Web/)
+### 7. [Web](./Web/)
 
 - [01. 브라우저 렌더링 과정](./Web/01.%20브라우저%20렌더링%20과정.md)
 - [02. V8 엔진](./Web/02.%20V8%20엔진.md)
@@ -67,7 +95,7 @@
 - [12. 이미지 폰트 최적화](./Web/12.%20이미지%20폰트%20최적화.md)
 - [13. 번들 최적화](./Web/13.%20번들%20최적화.md)
 
-### 4. [CSS](./CSS/)
+### 8. [CSS](./CSS/)
 
 - [1. UI &amp; UX](./CSS/1.%20UI%20&%20UX.md)
 - [2. CSS 성능 최적화](./CSS/2.%20CSS%20성능%20최적화.md)
@@ -79,10 +107,3 @@
 - [8. 가상 요소 (before, after)](<./CSS/8.%20가상%20요소%20(before,%20after).md>)
 - [9. 모던 선택자 (attr, has, not)](<./CSS/9.%20모던%20선택자%20(attr,%20has,%20not).md>)
 - [10. font (foit, fout, preload)](<./CSS/10.%20font%20(foit,%20fout,%20preload).md>)
-
-### 5. [Network](./Network/)
-
-- [1. HTTP &amp; HTTPS](./Network/1.%20HTTP%20&%20HTTPS.md)
-- [2. HTTP 메서드](./Network/2.%20HTTP%20메서드.md)
-- [3. HTTP 상태 코드](./Network/3.%20HTTP%20상태%20코드.md)
-- [4. 로드 밸런싱 (Load Balancing)](<./Network/4.%20로드%20밸런싱(Load%20Balancing).md>)
