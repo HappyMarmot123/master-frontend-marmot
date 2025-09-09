@@ -1,6 +1,4 @@
-## "Start where you are, use what you have, do what you can"
-
-### Karma comes back to you like a boomerang 🪃
+## Start where you are, Use what you have, Do what you can.
 
 토스에 취업하는 그날을 위해, 기초부터 천천히 쌓는 지식창고.
 
@@ -12,10 +10,10 @@
 - [2. Insertion Sort](./Algorithm/2.%20Insertion%20Sort.md)
 - [3. Quick Sort](./Algorithm/3.%20Quick%20Sort.md)
 - [4. Merge Sort](./Algorithm/4.%20Merge%20Sort.md)
-- [6. Binary Search](./Algorithm/6.%20Binary%20Search.md)
-- [7. Hash Table](./Algorithm/7.%20Hash%20Table.md)
-- [8. DFS &amp; BFS](./Algorithm/8.%20DFS%20&%20BFS.md)
-- [9. DP (Dynamic Programming)](<./Algorithm/9.%20DP%20(Dynamic%20Programming).md>)
+- [5. Binary Search](./Algorithm/5.%20Binary%20Search.md)
+- [6. Hash Table](./Algorithm/6.%20Hash%20Table.md)
+- [7. DFS &amp; BFS](./Algorithm/7.%20DFS%20&%20BFS.md)
+- [8. DP (Dynamic Programming)](<./Algorithm/8.%20DP%20(Dynamic%20Programming).md>)
 
 ### 2. [Software Engineering](./Software%20Engineering/)
 
@@ -51,7 +49,7 @@
 - [3. 레이어드 아키텍처 (Layered Architecture)](<./ArchitecturePattern/3.%20레이어드%20아키텍처%20(Layered%20Architecture).md>)
 - [4. 마이크로서비스 아키텍처 (Microservices Architecture)](<./ArchitecturePattern/4.%20마이크로서비스%20아키텍처%20(Microservices%20Architecture).md>)
 - [5. 도메인 기반 아키텍처](./ArchitecturePattern/5.%20도메인%20기반%20아키텍처.md)
-- [6. 프레젠테이셔널 & 컨테이너 패턴](./ArchitecturePattern/6.%20프레젠테이셔널%20&%20컨테이너%20패턴.md)
+- [6. 프레젠테이셔널 &amp; 컨테이너 패턴](./ArchitecturePattern/6.%20프레젠테이셔널%20&%20컨테이너%20패턴.md)
 - [7. 아토믹 디자인 (Atomic Design)](<./ArchitecturePattern/7.%20아토믹%20디자인%20(Atomic%20Design).md>)
 - [8. FSD (Feature-Sliced Design)](<./ArchitecturePattern/8.%20FSD%20(Feature-Sliced%20Design).md>)
 
@@ -85,15 +83,13 @@
 - [02. V8 엔진](./Web/02.%20V8%20엔진.md)
 - [03. Web Server와 WAS의 차이](./Web/03.%20Web%20Server와%20WAS의%20차이.md)
 - [04. 쿠키 &amp; 세션 &amp; 스토리지](./Web/04.%20쿠키%20&%20세션%20&%20스토리지.md)
-- [05. 프로세스와 스레드](./Web/05.%20프로세스와%20스레드.md)
-- [06. 인증 &amp; 보안 (Authentication &amp; Security)](./Web/06.%20인증%20&%20보안%20%28Authentication%20&%20Security%29.md)
-- [07. JWT (JSON Web Token)](./Web/07.%20JWT%20%28JSON%20Web%20Token%29.md)
-- [08. Access &amp; Refresh Token](./Web/08.%20Access%20&%20Refresh%20Token.md)
-- [09. SEO (Search Engine Optimization)](./Web/09.%20SEO%20%28Search%20Engine%20Optimization%29.md)
-- [10. 웹 접근성 (Web Accessibility)](./Web/10.%20웹%20접근성%20%28Web%20Accessibility%29.md)
-- [11. Web API](./Web/11.%20Web%20API.md)
-- [12. 이미지 폰트 최적화](./Web/12.%20이미지%20폰트%20최적화.md)
-- [13. 번들 최적화](./Web/13.%20번들%20최적화.md)
+- [05. 인증 &amp; 보안 (Authentication & Security)](<./Web/05.%20인증%20&%20보안%20(Authentication%20&%20Security).md>)
+- [06. SEO (Search Engine Optimization)](<./Web/06.%20SEO%20(Search%20Engine%20Optimization).md>)
+- [07. JWT (JSON Web Token)](<./Web/07.%20JWT%20(JSON%20Web%20Token).md>)
+- [08. Access & Refresh Token](./Web/08.%20Access%20&%20Refresh%20Token.md)
+- [09. 웹 접근성 (Web Accessibility)](<./Web/09.%20웹%20접근성%20(Web%20Accessibility).md>)
+- [10. 이미지 폰트 최적화](./Web/10.%20이미지%20폰트%20최적화.md)
+- [11. 번들 최적화](./Web/11.%20번들%20최적화.md)
 
 ### 8. [CSS](./CSS/)
 
@@ -107,3 +103,11 @@
 - [8. 가상 요소 (before, after)](<./CSS/8.%20가상%20요소%20(before,%20after).md>)
 - [9. 모던 선택자 (attr, has, not)](<./CSS/9.%20모던%20선택자%20(attr,%20has,%20not).md>)
 - [10. font (foit, fout, preload)](<./CSS/10.%20font%20(foit,%20fout,%20preload).md>)
+
+### 9. [DB](./DB/)
+
+- [1. Transaction](./DB/1.%20Transaction.md)
+- [2. Key](./DB/2.%20Key.md)
+- [3. Index](./DB/3.%20Index.md)
+- [4. Join](./DB/4.%20Join.md)
+- [5. RDB & NoSQL](./DB/5.%20RDB%20&%20NoSQL.md)
