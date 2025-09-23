@@ -8,12 +8,11 @@
 
 - [1. 시간복잡도](./Algorithm/1.%20시간복잡도.md)
 - [2. Insertion Sort](./Algorithm/2.%20Insertion%20Sort.md)
-- [3. Quick Sort](./Algorithm/3.%20Quick%20Sort.md)
-- [4. Merge Sort](./Algorithm/4.%20Merge%20Sort.md)
-- [5. Binary Search](./Algorithm/5.%20Binary%20Search.md)
-- [6. Hash Table](./Algorithm/6.%20Hash%20Table.md)
-- [7. DFS &amp; BFS](./Algorithm/7.%20DFS%20&%20BFS.md)
-- [8. DP (Dynamic Programming)](<./Algorithm/8.%20DP%20(Dynamic%20Programming).md>)
+- [3. Binary Search](./Algorithm/3.%20Binary%20Search.md)
+- [4. DFS](./Algorithm/4.%20DFS.md)
+- [5. BFS](./Algorithm/5.%20BFS.md)
+- [6. DP](./Algorithm/6.%20DP.md)
+- [7. Hash Table](./Algorithm/7.%20Hash%20Table.md)
 
 ### 2. [Software Engineering](./Software%20Engineering/)
 
