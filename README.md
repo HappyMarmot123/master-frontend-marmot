@@ -135,3 +135,6 @@
 
 - [1. Vue](./Vue/1.%20Vue.md)
 - [2. LifeCycle](./Vue/2.%20LifeCycle.md)
+- [3. Composition](./Vue/3.%20Composition.md)
+- [4. SFC](./Vue/4.%20SFC.md)
+- [5. Fragment & Teleport](./Vue/5.%20Fragment%20&%20Teleport.md)
