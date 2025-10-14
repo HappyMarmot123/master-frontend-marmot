@@ -133,4 +133,5 @@
 
 ### 12. [Vue](./Vue/)
 
-- [1. LifeCycle](./Vue/1.%20LifeCycle.md)
+- [1. Vue](./Vue/1.%20Vue.md)
+- [2. LifeCycle](./Vue/2.%20LifeCycle.md)
