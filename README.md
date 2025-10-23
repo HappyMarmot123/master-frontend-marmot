@@ -103,6 +103,7 @@
 - [8. 가상 요소 (before, after)](<./CSS/8.%20가상%20요소%20(before,%20after).md>)
 - [9. 모던 선택자 (attr, has, not)](<./CSS/9.%20모던%20선택자%20(attr,%20has,%20not).md>)
 - [10. font (foit, fout, preload)](<./CSS/10.%20font%20(foit,%20fout,%20preload).md>)
+- [11. 명시도 (Specificity)](<./CSS/11.%20명시도%20(Specificity).md>)
 
 ### 9. [DB](./DB/)
 
