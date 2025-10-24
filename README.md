@@ -69,6 +69,7 @@
 - [13. 디바운스 스로틀링](./JavaScript/13.%20디바운스%20스로틀링.md)
 - [14. Promise](./JavaScript/14.%20Promise.md)
 - [15. async await](./JavaScript/15.%20async%20await.md)
+- [16. 이벤트 위임](./JavaScript/16.%20이벤트%20위임.md)
 
 ### 6. [Network](./Network/)
 
