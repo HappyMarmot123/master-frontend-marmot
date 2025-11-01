@@ -147,6 +147,7 @@
 
 ### 13. [Artificial Intelligence](./Artificial%20Intelligence/)
 
-- [1. 선형대수학](./Artificial%20Intelligence/1.%20선형대수학.md)
-- [2. 확률과 통계](./Artificial%20Intelligence/2.%20확률과%20통계.md)
-- [3. 미적분학](./Artificial%20Intelligence/3.%20미적분학.md)
+- [1. 가중치](./Artificial%20Intelligence/1.%20가중치.md)
+- [2. 선형대수학](./Artificial%20Intelligence/2.%20선형대수학.md)
+- [3. 확률과 통계](./Artificial%20Intelligence/3.%20확률과%20통계.md)
+- [4. 미적분학](./Artificial%20Intelligence/4.%20미적분학.md)
