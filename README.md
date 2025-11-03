@@ -160,3 +160,16 @@
 - [데이터와 피처 엔지니어링](./Artificial%20Intelligence/데이터와%20피처%20엔지니어링.md)
 - [오버피팅과 일반화](./Artificial%20Intelligence/오버피팅과%20일반화.md)
 - [AI 아키텍처](./Artificial%20Intelligence/AI%20아키텍처.md)
+- [NLP](./Artificial%20Intelligence/NLP.md)
+- [OCR](./Artificial%20Intelligence/OCR.md)
+- [Word2Vec](./Artificial%20Intelligence/Word2Vec.md)
+- [NMT](./Artificial%20Intelligence/NMT.md)
+- [SLLM](./Artificial%20Intelligence/SLLM.md)
+
+### 14. [DevOps](./DevOps/)
+
+- [1. On-Promises](./DevOps/1.%20On-Promises.md)
+- [2. Docker](./DevOps/2.%20Docker.md)
+- [3. Kubernetes](./DevOps/3.%20Kubernetes.md)
+- [Elasticsearch](./DevOps/Elasticsearch.md)
+- [Jenkins](./DevOps/Jenkins.md)
