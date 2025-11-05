@@ -113,6 +113,8 @@
 - [3. Index](./DB/3.%20Index.md)
 - [4. Join](./DB/4.%20Join.md)
 - [5. RDB & NoSQL](./DB/5.%20RDB%20&%20NoSQL.md)
+- [6. Elasticsearch](./DB/6.%20Elasticsearch.md)
+- [7. VectorDB](./DB/7.%20VectorDB.md)
 
 ### 10. [React](./React/)
 
@@ -154,17 +156,15 @@
 - [5. LLM](./Artificial%20Intelligence/5.%20LLM.md)
 - [6. VLLM](./Artificial%20Intelligence/6.%20VLLM.md)
 - [7. RAG](./Artificial%20Intelligence/7.%20RAG.md)
+- [8. AI 아키텍처](./Artificial%20Intelligence/8.%20AI%20아키텍처.md)
+- [9. NLP](./Artificial%20Intelligence/9.%20NLP.md)
+- [10. 프롬프트 엔지니어링](./Artificial%20Intelligence/10.%20프롬프트%20엔지니어링.md)
 - [머신러닝](./Artificial%20Intelligence/머신러닝.md)
 - [딥러닝](./Artificial%20Intelligence/딥러닝.md)
 - [생성형 AI](./Artificial%20Intelligence/생성형%20AI.md)
 - [데이터와 피처 엔지니어링](./Artificial%20Intelligence/데이터와%20피처%20엔지니어링.md)
 - [오버피팅과 일반화](./Artificial%20Intelligence/오버피팅과%20일반화.md)
-- [AI 아키텍처](./Artificial%20Intelligence/AI%20아키텍처.md)
-- [NLP](./Artificial%20Intelligence/NLP.md)
 - [OCR](./Artificial%20Intelligence/OCR.md)
-- [Word2Vec](./Artificial%20Intelligence/Word2Vec.md)
-- [NMT](./Artificial%20Intelligence/NMT.md)
-- [SLLM](./Artificial%20Intelligence/SLLM.md)
 
 ### 14. [DevOps](./DevOps/)
 
