@@ -19,8 +19,8 @@
 - [1. OOP &amp; SRP &amp; OCP](./Software%20Engineering/1.%20OOP%20&%20SRP%20&%20OCP.md)
 - [2. TDD &amp; DDD](./Software%20Engineering/2.%20TDD%20&%20DDD.md)
 - [3. Agile](./Software%20Engineering/3.%20Agile.md)
- - [4. Symbolic link](./Software%20Engineering/4.%20Symbolic%20link.md)
- - [5. AI 제품 프론트엔드 개발](./Software%20Engineering/5.%20AI%20제품%20프론트엔드%20개발.md)
+- [4. Symbolic link](./Software%20Engineering/4.%20Symbolic%20link.md)
+- [5. AI 제품 프론트엔드 개발](./Software%20Engineering/5.%20AI%20제품%20프론트엔드%20개발.md)
 
 ### 3. [DesignPattern](./DesignPattern/)
 
@@ -149,7 +149,15 @@
 - [8. Router](./Vue/8.%20Router.md)
 - [9. Global State](./Vue/9.%20Global%20State.md)
 
-### 13. [Artificial Intelligence](./Artificial%20Intelligence/)
+### 13. [DevOps](./DevOps/)
+
+- [1. On-Promises](./DevOps/1.%20On-Promises.md)
+- [2. Docker](./DevOps/2.%20Docker.md)
+- [3. Kubernetes](./DevOps/3.%20Kubernetes.md)
+- [Elasticsearch](./DevOps/Elasticsearch.md)
+- [Jenkins](./DevOps/Jenkins.md)
+
+### 14. [Artificial Intelligence](./Artificial%20Intelligence/)
 
 - [1. 가중치](./Artificial%20Intelligence/1.%20가중치.md)
 - [2. 선형대수학](./Artificial%20Intelligence/2.%20선형대수학.md)
@@ -168,10 +176,6 @@
 - [오버피팅과 일반화](./Artificial%20Intelligence/오버피팅과%20일반화.md)
 - [OCR](./Artificial%20Intelligence/OCR.md)
 
-### 14. [DevOps](./DevOps/)
+### 15. [Python](./Python/)
 
-- [1. On-Promises](./DevOps/1.%20On-Promises.md)
-- [2. Docker](./DevOps/2.%20Docker.md)
-- [3. Kubernetes](./DevOps/3.%20Kubernetes.md)
-- [Elasticsearch](./DevOps/Elasticsearch.md)
-- [Jenkins](./DevOps/Jenkins.md)
+- [1. Python](./Python/1.%20Python.md)
