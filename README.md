@@ -119,6 +119,7 @@
 - [5. RDB & NoSQL](./DB/5.%20RDB%20&%20NoSQL.md)
 - [6. Elasticsearch](./DB/6.%20Elasticsearch.md)
 - [7. VectorDB](./DB/7.%20VectorDB.md)
+- [8. Sequelize](./DB/8.%20Sequelize.md)
 
 ### 10. [React](./React/)
 
@@ -159,7 +160,12 @@
 - [Elasticsearch](./DevOps/Elasticsearch.md)
 - [Jenkins](./DevOps/Jenkins.md)
 
-### 14. [Artificial Intelligence](./Artificial%20Intelligence/)
+### 14. [AWS](./AWS/)
+
+- [AWS Lambda](./AWS/AWS%20Lambda.md)
+- [1. dummy](./AWS/1.%20dummy.md)
+
+### 15. [Artificial Intelligence](./Artificial%20Intelligence/)
 
 - [1. 가중치](./Artificial%20Intelligence/1.%20가중치.md)
 - [2. 선형대수학](./Artificial%20Intelligence/2.%20선형대수학.md)
@@ -178,6 +184,6 @@
 - [오버피팅과 일반화](./Artificial%20Intelligence/오버피팅과%20일반화.md)
 - [OCR](./Artificial%20Intelligence/OCR.md)
 
-### 15. [Python](./Python/)
+### 16. [Python](./Python/)
 
 - [1. Python](./Python/1.%20Python.md)
