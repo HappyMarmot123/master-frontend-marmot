@@ -18,9 +18,7 @@
 
 - [1. OOP &amp; SRP &amp; OCP](./Software%20Engineering/1.%20OOP%20&%20SRP%20&%20OCP.md)
 - [2. TDD &amp; DDD](./Software%20Engineering/2.%20TDD%20&%20DDD.md)
-- [3. Agile](./Software%20Engineering/3.%20Agile.md)
-- [4. Symbolic link](./Software%20Engineering/4.%20Symbolic%20link.md)
-- [5. AI 제품 프론트엔드 개발](./Software%20Engineering/5.%20AI%20제품%20프론트엔드%20개발.md)
+- [3. UX 디자인 원칙](./Software%20Engineering/3.%20UX%20디자인%20원칙.md)
 
 ### 3. [DesignPattern](./DesignPattern/)
 
@@ -107,7 +105,6 @@
 - [9. 모던 선택자 (attr, has, not)](<./CSS/9.%20모던%20선택자%20(attr,%20has,%20not).md>)
 - [10. font (foit, fout, preload)](<./CSS/10.%20font%20(foit,%20fout,%20preload).md>)
 - [11. 명시도 (Specificity)](<./CSS/11.%20명시도%20(Specificity).md>)
-
 - [12. Tailwind css](./CSS/12.Tailwind%20css.md)
 
 ### 9. [DB](./DB/)
@@ -177,6 +174,7 @@
 - [8. AI 아키텍처](./Artificial%20Intelligence/8.%20AI%20아키텍처.md)
 - [9. NLP](./Artificial%20Intelligence/9.%20NLP.md)
 - [10. 프롬프트 엔지니어링](./Artificial%20Intelligence/10.%20프롬프트%20엔지니어링.md)
+- [11. 파인튜닝](./Artificial%20Intelligence/11.%20파인튜닝.md)
 - [머신러닝](./Artificial%20Intelligence/머신러닝.md)
 - [딥러닝](./Artificial%20Intelligence/딥러닝.md)
 - [생성형 AI](./Artificial%20Intelligence/생성형%20AI.md)
