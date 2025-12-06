@@ -106,7 +106,7 @@
 - [10. font (foit, fout, preload)](<./CSS/10.%20font%20(foit,%20fout,%20preload).md>)
 - [11. 명시도 (Specificity)](<./CSS/11.%20명시도%20(Specificity).md>)
 - [12. Tailwind css](./CSS/12.Tailwind%20css.md)
-  
+
 ### 9. [DB](./DB/)
 
 - [1. Transaction](./DB/1.%20Transaction.md)
@@ -157,12 +157,7 @@
 - [Elasticsearch](./DevOps/Elasticsearch.md)
 - [Jenkins](./DevOps/Jenkins.md)
 
-### 14. [AWS](./AWS/)
-
-- [AWS Lambda](./AWS/AWS%20Lambda.md)
-- [1. dummy](./AWS/1.%20dummy.md)
-
-### 15. [Artificial Intelligence](./Artificial%20Intelligence/)
+### 14. [Artificial Intelligence](./Artificial%20Intelligence/)
 
 - [1. 가중치](./Artificial%20Intelligence/1.%20가중치.md)
 - [2. 선형대수학](./Artificial%20Intelligence/2.%20선형대수학.md)
@@ -182,6 +177,81 @@
 - [오버피팅과 일반화](./Artificial%20Intelligence/오버피팅과%20일반화.md)
 - [OCR](./Artificial%20Intelligence/OCR.md)
 
-### 16. [Python](./Python/)
+### 15. [Python](./Python/)
 
 - [1. Python](./Python/1.%20Python.md)
+
+### 16. [AWS](./AWS/)
+
+AWS Certified Solutions Architect - Associate (SAA-C03) 학습 자료
+
+#### [00. AWS 기초](./AWS/00.%20AWS%20기초/)
+
+- [1. AWS 개요](./AWS/00.%20AWS%20기초/1.%20AWS%20개요.md)
+- [2. 글로벌 인프라 (리전, 가용영역)](<./AWS/00.%20AWS%20기초/2.%20글로벌%20인프라%20(리전,%20가용영역).md>)
+- [3. 공동 책임 모델](./AWS/00.%20AWS%20기초/3.%20공동%20책임%20모델.md)
+- [4. Well-Architected Framework](./AWS/00.%20AWS%20기초/4.%20Well-Architected%20Framework.md)
+
+#### [01. 보안 아키텍처 설계](./AWS/01.%20보안%20아키텍처%20설계/)
+
+- [1. IAM (Identity and Access Management)](<./AWS/01.%20보안%20아키텍처%20설계/1.%20IAM%20(Identity%20and%20Access%20Management).md>)
+- [2. VPC 보안 (보안그룹, NACL)](<./AWS/01.%20보안%20아키텍처%20설계/2.%20VPC%20보안%20(보안그룹,%20NACL).md>)
+- [3. KMS (Key Management Service)](<./AWS/01.%20보안%20아키텍처%20설계/3.%20KMS%20(Key%20Management%20Service).md>)
+- [4. 데이터 암호화 전략](./AWS/01.%20보안%20아키텍처%20설계/4.%20데이터%20암호화%20전략.md)
+- [5. IAM Identity Center & 페더레이션](./AWS/01.%20보안%20아키텍처%20설계/5.%20IAM%20Identity%20Center%20&%20페더레이션.md)
+- [6. STS (Security Token Service)](<./AWS/01.%20보안%20아키텍처%20설계/6.%20STS%20(Security%20Token%20Service).md>)
+- [7. Control Tower & SCP](./AWS/01.%20보안%20아키텍처%20설계/7.%20Control%20Tower%20&%20SCP.md)
+- [8. Shield & WAF](./AWS/01.%20보안%20아키텍처%20설계/8.%20Shield%20&%20WAF.md)
+- [9. VPN & Direct Connect](./AWS/01.%20보안%20아키텍처%20설계/9.%20VPN%20&%20Direct%20Connect.md)
+- [10. PrivateLink](./AWS/01.%20보안%20아키텍처%20설계/10.%20PrivateLink.md)
+- [11. Secrets Manager](./AWS/01.%20보안%20아키텍처%20설계/11.%20Secrets%20Manager.md)
+- [12. GuardDuty](./AWS/01.%20보안%20아키텍처%20설계/12.%20GuardDuty.md)
+- [13. NAT 게이트웨이](./AWS/01.%20보안%20아키텍처%20설계/13.%20NAT%20게이트웨이.md)
+
+#### [02. 복원력 아키텍처 설계](./AWS/02.%20복원력%20아키텍처%20설계/)
+
+- [1. Auto Scaling](./AWS/02.%20복원력%20아키텍처%20설계/1.%20Auto%20Scaling.md)
+- [2. 재해 복구 전략 (DR)](<./AWS/02.%20복원력%20아키텍처%20설계/2.%20재해%20복구%20전략%20(DR).md>)
+- [3. Lambda](./AWS/02.%20복원력%20아키텍처%20설계/3.%20Lambda.md)
+- [4. Route 53](./AWS/02.%20복원력%20아키텍처%20설계/4.%20Route%2053.md)
+- [5. API Gateway](./AWS/02.%20복원력%20아키텍처%20설계/5.%20API%20Gateway.md)
+- [6. SQS & SNS](./AWS/02.%20복원력%20아키텍처%20설계/6.%20SQS%20&%20SNS.md)
+- [7. Step Functions](./AWS/02.%20복원력%20아키텍처%20설계/7.%20Step%20Functions.md)
+- [8. 캐싱 전략](./AWS/02.%20복원력%20아키텍처%20설계/8.%20캐싱%20전략.md)
+- [9. 마이크로서비스 아키텍처](./AWS/02.%20복원력%20아키텍처%20설계/9.%20마이크로서비스%20아키텍처.md)
+- [10. ALB (Application Load Balancer)](<./AWS/02.%20복원력%20아키텍처%20설계/10.%20ALB%20(Application%20Load%20Balancer).md>)
+- [11. ECS & EKS](./AWS/02.%20복원력%20아키텍처%20설계/11.%20ECS%20&%20EKS.md)
+- [12. Fargate](./AWS/02.%20복원력%20아키텍처%20설계/12.%20Fargate.md)
+- [13. Multi-AZ 배포 전략](./AWS/02.%20복원력%20아키텍처%20설계/13.%20Multi-AZ%20배포%20전략.md)
+- [14. RDS Proxy](./AWS/02.%20복원력%20아키텍처%20설계/14.%20RDS%20Proxy.md)
+- [15. 장애 조치 전략](./AWS/02.%20복원력%20아키텍처%20설계/15.%20장애%20조치%20전략.md)
+
+#### [03. 고성능 아키텍처 설계](./AWS/03.%20고성능%20아키텍처%20설계/)
+
+- [1. S3 (Simple Storage Service)](<./AWS/03.%20고성능%20아키텍처%20설계/1.%20S3%20(Simple%20Storage%20Service).md>)
+- [2. EBS (Elastic Block Store)](<./AWS/03.%20고성능%20아키텍처%20설계/2.%20EBS%20(Elastic%20Block%20Store).md>)
+- [3. EFS (Elastic File System)](<./AWS/03.%20고성능%20아키텍처%20설계/3.%20EFS%20(Elastic%20File%20System).md>)
+- [4. 스토리지 유형 비교](./AWS/03.%20고성능%20아키텍처%20설계/4.%20스토리지%20유형%20비교.md)
+- [5. EC2 인스턴스 유형](./AWS/03.%20고성능%20아키텍처%20설계/5.%20EC2%20인스턴스%20유형.md)
+- [6. Batch & EMR](./AWS/03.%20고성능%20아키텍처%20설계/6.%20Batch%20&%20EMR.md)
+- [7. 워크로드 디커플링](./AWS/03.%20고성능%20아키텍처%20설계/7.%20워크로드%20디커플링.md)
+- [8. RDS (MySQL, PostgreSQL)](<./AWS/03.%20고성능%20아키텍처%20설계/8.%20RDS%20(MySQL,%20PostgreSQL).md>)
+- [9. 읽기 전용 복제본](./AWS/03.%20고성능%20아키텍처%20설계/9.%20읽기%20전용%20복제본.md)
+- [10. Aurora](./AWS/03.%20고성능%20아키텍처%20설계/10.%20Aurora.md)
+- [11. DynamoDB](./AWS/03.%20고성능%20아키텍처%20설계/11.%20DynamoDB.md)
+- [12. ElastiCache](./AWS/03.%20고성능%20아키텍처%20설계/12.%20ElastiCache.md)
+- [13. CloudFront](./AWS/03.%20고성능%20아키텍처%20설계/13.%20CloudFront.md)
+- [14. Global Accelerator](./AWS/03.%20고성능%20아키텍처%20설계/14.%20Global%20Accelerator.md)
+- [15. 로드 밸런서 비교 (ALB, NLB, GLB)](<./AWS/03.%20고성능%20아키텍처%20설계/15.%20로드%20밸런서%20비교%20(ALB,%20NLB,%20GLB).md>)
+- [16. Kinesis](./AWS/03.%20고성능%20아키텍처%20설계/16.%20Kinesis.md)
+- [17. DataSync & Storage Gateway](./AWS/03.%20고성능%20아키텍처%20설계/17.%20DataSync%20&%20Storage%20Gateway.md)
+
+#### [04. 비용 최적화 아키텍처 설계](./AWS/04.%20비용%20최적화%20아키텍처%20설계/)
+
+- [1. S3 수명 주기 관리](./AWS/04.%20비용%20최적화%20아키텍처%20설계/1.%20S3%20수명%20주기%20관리.md)
+- [2. 백업 및 아카이브 솔루션](./AWS/04.%20비용%20최적화%20아키텍처%20설계/2.%20백업%20및%20아카이브%20솔루션.md)
+- [3. EC2 구매 옵션 및 비용 최적화](./AWS/04.%20비용%20최적화%20아키텍처%20설계/3.%20EC2%20구매%20옵션%20및%20비용%20최적화.md)
+- [4. 서버리스 컴퓨팅 비용 최적화](./AWS/04.%20비용%20최적화%20아키텍처%20설계/4.%20서버리스%20컴퓨팅%20비용%20최적화.md)
+- [5. 데이터베이스 비용 최적화](./AWS/04.%20비용%20최적화%20아키텍처%20설계/5.%20데이터베이스%20비용%20최적화.md)
+- [6. 네트워크 전송 비용 최적화](./AWS/04.%20비용%20최적화%20아키텍처%20설계/6.%20네트워크%20전송%20비용%20최적화.md)
+- [7. Cost Explorer](./AWS/04.%20비용%20최적화%20아키텍처%20설계/7.%20Cost%20Explorer.md)
