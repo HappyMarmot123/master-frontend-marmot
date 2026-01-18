@@ -148,3 +148,12 @@
 - [7. Fragment & Teleport](./Vue/7.%20Fragment%20&%20Teleport.md)
 - [8. Router](./Vue/8.%20Router.md)
 - [9. Global State](./Vue/9.%20Global%20State.md)
+
+### 13. [Artificial Intelligence](./Artificial%20Intelligence/)
+
+- [1. LLM](./Artificial%20Intelligence/1.%20LLM.md)
+- [2. Transformer](./Artificial%20Intelligence/2.%20Transformer.md)
+- [3. Embedding](./Artificial%20Intelligence/3.%20Embedding.md)
+- [4. Learning](./Artificial%20Intelligence/4.%20Learning.md)
+- [5. Searching](./Artificial%20Intelligence/5.%20Searching.md)
+- [6. Optimize](./Artificial%20Intelligence/6.%20Optimize.md)
